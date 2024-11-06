@@ -44,7 +44,7 @@ def sort_temperature():
 
 def calc_median_temperature(inputList):
     print("calc_median_temperature")
-
+    inputList.sort()
     midItem = len(inputList)
 
     if midItem % 2 is 1:
